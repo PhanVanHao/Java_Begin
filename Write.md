@@ -1,16 +1,16 @@
 
 # Types : 
 
-• boolean: true hoặc false
-• int: số nguyên (0, 1, -47)
-• double: số thực (3.14, 1.0, -2.1)
-• String: văn bản (“hello”, “example”)
+- boolean: true hoặc false
+- int: số nguyên (0, 1, -47)
+- double: số thực (3.14, 1.0, -2.1)
+- String: văn bản (“hello”, “example”)
 
 # Variables
-• Biến 
-Cú pháp : 
+- Biến 
+- Cú pháp : 
 *Type : Name;*
-Là đối tượng thay đổi thường xuyên trong chương trình , dùng để lưu trữ dữ liệu để xử lý hoặc in
+- Là đối tượng thay đổi thường xuyên trong chương trình , dùng để lưu trữ dữ liệu để xử lý hoặc in
 
 # Operator
 
