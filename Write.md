@@ -1,4 +1,4 @@
-# Cái bảng tạo bên markdown table mà sao lỗi tè le thế k biết 
+
 # Types : 
 
 • boolean: true hoặc false
