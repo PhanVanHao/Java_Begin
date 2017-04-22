@@ -1,16 +1,19 @@
-﻿#Types : 
-• boolean: true hoặc false
-• int: số nguyên (0, 1, -47)
-• double: số thực (3.14, 1.0, -2.1)
-• String: văn bản (“hello”, “example”)
 
-#Variables
-• Biến 
-Cú pháp : 
+# Types : 
+
+- boolean: true hoặc false
+- int: số nguyên (0, 1, -47)
+- double: số thực (3.14, 1.0, -2.1)
+- String: văn bản (“hello”, “example”)
+
+# Variables
+- Biến 
+- Cú pháp : 
 *Type : Name;*
-Là đối tượng thay đổi thường xuyên trong chương trình , dùng để lưu trữ dữ liệu để xử lý hoặc in
+- Là đối tượng thay đổi thường xuyên trong chương trình , dùng để lưu trữ dữ liệu để xử lý hoặc in
 
-#Operator
+# Operator
+
 - Phép gán : =
 - Phép cộng : +
 - Phép trừ : -
@@ -23,7 +26,8 @@ Là đối tượng thay đổi thường xuyên trong chương trình , dùng �
 + Cộng Trừ
 
 
-#Methods
+# Methods
+
 1- Modifier trong Java
 
 Có hai loại modifier trong java: access modifiers và non-access modifiers.
@@ -38,12 +42,17 @@ protected
 public
 Và có một vài non-access modifiers chẳng hạn static, abstract, synchronized, native, volatile, transient, v.v..
 2 . Access modifiers
+
+
 | Access Modifier | Truy cập bên trong class? | Truy cập bên trong package? | Truy cập bên ngoài package bởi class con? | Truy cập bên ngoài class và không thuộc class con? |
 |:---------------:|:-------------------------:|:---------------------------:|:-----------------------------------------:|:--------------------------------------------------:|
 |     private     |             Y             |                             |                                           |                                                    |
 |     Mặc định    |             Y             |              Y              |                                           |                                                    |
 |    protected    |             Y             |              Y              |                     Y                     |                                                    |
 |      public     |             Y             |              Y              |                     Y                     |                          Y                         |
+
+
+
 3- private access modifier
 
 private access modifier chỉ cho phép truy cập trong nội bộ một class.
@@ -81,8 +90,10 @@ Có tham khảo từ nguồn : http://o7planning.org/vi/10319/access-modifier-tr
 
 
 
-#Operator logic
+# Operator logic
 Toán tử quan hệ trong Java (A=10,B=20)
+
+
 | Toán Tử |                                                 Miêu tả                                                 |          Ví dụ          |
 |:-------:|:-------------------------------------------------------------------------------------------------------:|:-----------------------:|
 |    ==   |       Kiểm tra nếu giá trị của hai toán hạng có cân bằng hay không, nếu có thì điều kiện là true.       | (A == B) là không true. |
@@ -92,10 +103,12 @@ Toán tử quan hệ trong Java (A=10,B=20)
 |    >=   | Kiểm tra nếu toán hạng trái có lớn hơn hoặc bằng toán hạng phải hay không, nếu có thì điều kiện là true | (A >= B) là không true. |
 |    <=   | Kiểm tra nếu toán hạng phải có lớn hơn hoặc bằng toán hạng trái hay không, nếu có thì điều kiện là true |    (A <= B) là true.    |
 
+
 Toán tử thao tác bit trong Java
 với 
 a = 0011 1100
 b = 0000 1101
+
 
 | Toán Tử |                                                 Miêu tả                                                 |          Ví dụ          |
 |:-------:|:-------------------------------------------------------------------------------------------------------:|:-----------------------:|
@@ -105,8 +118,11 @@ b = 0000 1101
 |    <    |      Kiểm tra nếu toán hạng phải có lớn hơn toán hạng trái hay không, nếu có thì điều kiện là true      |     (A < B) là true.    |
 |    >=   | Kiểm tra nếu toán hạng trái có lớn hơn hoặc bằng toán hạng phải hay không, nếu có thì điều kiện là true | (A >= B) là không true. |
 
+
 Toán tử logic trong Java
 Giả sử biến A giữ true và biến B giữ false thì khi đó:
+
+
 | Toán Tử |                                                                     Miêu tả                                                                     |        Ví dụ       |
 |:-------:|:-----------------------------------------------------------------------------------------------------------------------------------------------:|:------------------:|
 |    &&   |                                Toán tử Và logic. Nếu cả hai toán hạng là khác không, thì khi đó điều kiện là true                               | (A && B) là false. |
@@ -114,7 +130,8 @@ Giả sử biến A giữ true và biến B giữ false thì khi đó:
 |    !    | Toán tử Phủ định logic. Sử dụng để đảo ngược lại trạng thái logic của toán hạng đó. Nếu điều kiện toán hạng là true thì phủ định nó sẽ là false | !(A && B) là true. |
 
 
-#If/ If Else
+
+# If/ If Else
 Cú pháp:
 Cú pháp của một lệnh if…else trong Java là:
 
